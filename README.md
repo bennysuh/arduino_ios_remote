@@ -19,4 +19,22 @@ arduino wifi智能小车ios控制端
 release目录下的ipa文件是我生成好的，可以使用itunes同步到已经越狱后的ios设备当真
 
 
+配置信息目前还在代码里面改：
+
+```actionscript
+
+private var cfg_VideoUrl:String = 'http://192.168.1.1:8080/?action=snapshot';
+private var cfg_ControlHost:String = '192.168.1.1';
+private var cfg_ControlPort:uint = 2001;
+private var cfg_keyMaps:Object = {
+
+	qian: 'q', hou: 'h', zuo: 'z', you: 'y', ting: 's'
+
+	, up: 't', down: 'd', left: 'l', right: 'r', stop: 's'
+
+};
+
+```
+
+
 ![Alt text](https://raw.github.com/play175/arduino_ios_remote/master/snap.jpg)
