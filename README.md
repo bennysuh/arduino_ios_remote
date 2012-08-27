@@ -15,3 +15,6 @@ arduino wifi智能小车ios控制端
 源代码是as3手机项目，请使用flash builder 4.6 编译生成ipa文件
 
 release目录下的ipa文件是我生成好的，可以使用itunes同步到已经越狱后的ios设备当真
+
+
+![Alt text](https://raw.github.com/play175/arduino_ios_remote/master/snap.jpg)
